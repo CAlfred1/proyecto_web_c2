@@ -1,0 +1,221 @@
+.contenedor{
+    width: 1300px;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    font-weight: bold;
+    
+}
+.contenedor nav{
+    margin-left: auto;
+}
+body{
+    background-color: #FFCF37;
+    font-family: arial;
+}
+header{
+    /*background-color: #FFF000;*/
+
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;       
+}
+.logo img{
+    width: 170px;
+    height: 170px;
+}
+
+.menu{
+    list-style: none;
+    
+}
+.menu li{
+    display: inline-block;
+
+}
+.menu li a{
+    text-decoration: none;
+    color: #0059A9;
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.menu li a:hover{
+    border-bottom: 4px solid #FFCF37;
+    padding-bottom: 2px;
+    color: black;  
+}
+.banner{
+    background-image: url(../imagenes/banner_final.jpg);
+    background-size: cover;
+    background-position:center;
+    padding:40px;
+
+}
+
+
+.textoBanner h1{
+    font-family: 'Arial', sans-serif;
+    font-size: 5em;
+    color: #0059A9;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3); 
+    text-align: right;
+    padding: 30px 60px;
+    margin-top: 10px;
+}
+.textoBanner p{
+    font-size:1.4em;
+    font-weight: bold;
+    text-align: right;
+    padding:100px 80px 10px 10px;
+    font-size: 20px;
+    
+}
+.textoBanner p span{
+    color: #FFCF37;
+}
+
+.textoBanner h2{
+    text-decoration: none;
+    font-family: 'Arial', sans-serif;
+    font-size: larger;
+    color: black; 
+    text-shadow: 3px 3px 5px white; 
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    margin-top: 10px;
+    margin-left: 1100px;
+    margin-right: 40px;
+    background-color:  #FFCF37 ;
+    border-radius: 10px;
+}
+.textoPrincipal{
+    margin: 40px 90px 0 90px;
+    text-align: justify;
+    line-height: 2;
+}
+.textoPrincipal p{
+    color: #6a6a6a;
+}
+.gran{
+    color:black;
+}
+.hora{
+    color:black;
+}
+.dia{
+    color:black;
+}
+.textoPrincipal h2{
+    color:  #0059A9;
+    font-weight: bold;  
+}
+.programacion{
+    text-align: left;
+    margin: 40px 90px 0 90px;
+    font-weight: bold; 
+    background-color: #F2F2F2;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+
+.programacion h2{
+    color:  #0059A9;
+    text-align: center;
+
+}
+
+.horario{
+    display: inline-block;
+    padding: 20px 20px 20px 20px;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    width: 200px;     
+    border: 5px solid  #0059A9;
+    color: #6a6a6a;
+}
+
+.horario h3{
+    background-color: #0059A9;
+    padding: 10px 0px 10px 0px;
+    margin-top: -19px;
+    margin-left: -19px;
+    margin-right: -19px;
+    text-align: center;
+    color: #FFCF37;
+    
+}
+.recomendaciones{
+    background-color:#F2F2F2;
+    text-align: left;
+    margin: 40px 90px 0 90px;  
+    padding-left: 10px;
+
+}
+.recomendaciones h2{
+    color:  #0059A9;
+    font-weight: bold;  
+}
+.recomendaciones li{
+    line-height: 2; 
+    color:#6a6a6a;
+}
+.inscripciones{
+    text-align: left;
+    margin: 40px 90px 0 90px;  
+
+}
+.inscripciones h2{
+    color:  #0059A9;
+    font-weight: bold;
+}
+.inscripciones a{
+    text-decoration: none;
+    background-color: #0059A9;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-family: verdana;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+.inscripciones a:hover{
+    background-color:  #FFCF37;
+}
+footer{
+    margin-top: 60px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+footer h3{
+    color: #FFCF37;
+}
+.adicional{
+    text-align: left;
+}
+.adicional a{
+    text-decoration: none;
+    color: white;
+}
+.adicional a:hover{
+    color: #FFCF37;
+}
+.redes img{
+    margin: 20px;
+}
+.pie{
+    text-align: left;
+}

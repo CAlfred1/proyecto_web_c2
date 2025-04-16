@@ -1,0 +1,189 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #FFCF37;
+  
+}
+
+.contenedor_padre{
+  width: 1300px;
+  margin: auto;
+  padding: 20px;
+  background-color: white;
+}
+
+header{
+ 
+  /*background-color: #FFF000;*/
+ 
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo img{
+  width: 170px;
+  height: 170px;
+}
+.menu{
+  list-style: none;
+}
+.menu li{
+  display: inline-block;
+}
+.menu li a{
+  text-decoration: none;
+  color: #0059A9;
+  font-size: 24px;
+  font-weight: bold;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.menu li a:hover{
+  border-bottom: 4px solid #FFCF37;
+  padding-bottom: 2px;
+  color: black;
+ 
+}
+
+.video-container
+{
+  display: flex;
+  align-items: center;
+  width: 80%;
+  height: 500px;
+  padding-left: 240px;
+}
+
+.video-container iframe {
+  width: 80%;
+  height: 90%;
+}
+
+.matricula .btn {
+  background-color: azure;
+  color: #003366;
+  font-weight: bold;
+  text-decoration: none;
+  display: flex
+}
+
+.matricula .btn:hover {
+  background-color: #FFD700
+}
+
+.highlight {
+  color: #FFD700;
+  padding: 20px;
+  margin: 20px auto;
+}
+
+.container {
+  width: 90%;
+  max-width: 900px;
+  background-color: #F2F2F2;
+  color: #003366; 
+  padding: 20px;
+  margin: 20px auto;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+
+
+h2 {
+  text-align: center;
+}
+
+.steps {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.step {
+  padding: 10px;
+  font-size: 16px;
+  color: #bbb;
+  font-weight: bold;
+}
+
+.step.active {
+  color: #003366;
+  border-bottom: 2px solid #003366;
+}
+
+.form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input, select {
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input:disabled {
+  background-color: #eaeaea;
+}
+
+.btn {
+  grid-column: span 2;
+  padding: 10px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #003366;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #003366;
+}
+
+/*Inicio Footer*/
+footer{
+  margin-top: 20px;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+footer h3{
+  color: #FFCF37;
+}
+.adicional{
+  text-align: left;
+}
+.adicional a{
+  text-decoration: none;
+  color: white;
+}
+.adicional a:hover{
+  color: #FFCF37;
+
+}
+.redes img{
+  margin: 20px;
+}
+.pie{
+  text-align: left;
+}
+/*Fin Footer*/

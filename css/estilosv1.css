@@ -1,0 +1,110 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #FFCF37;
+}
+
+.container {
+  width: 90%;
+  max-width: 1400px;
+  background-color: #F2F2F2;
+  padding: 20px;
+  margin: 20px auto;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.title {
+  color: #003366;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.search-bar {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+
+.search-bar input {
+  padding: 8px;
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 4px 0 0 4px;
+  font-size: 14px;
+}
+
+.recursos h3{
+  text-align: center;
+}
+
+.search-bar button {
+  padding: 8px 12px;
+  border: none;
+  background-color: #007BFF;
+  color: white;
+  font-size: 16px;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+}
+
+.search-bar button1:hover {
+  background-color: #0056b3;
+}
+
+h3 {
+  color: rgb(0, 0, 0);
+  margin-top: 10px;
+ 
+}
+  
+.contenedor {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.tarjeta {
+  background: #fff;
+  border: 2px solid #003366;
+  border-radius: 10px;
+  width: 250px;
+  text-align: center;
+  padding: 15px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+}
+.imagen {
+  background: linear-gradient(to right, #003366 50%, white 50%);
+  padding: 20px;
+  position: relative;
+}
+.imagen img {
+  width: 150px;
+}
+.imagen p {
+  color: black;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-left: 110px;
+}
+h4 {
+  color: black;
+  margin-top: 10px;
+}
+button {
+  background: #003366;
+  color: white;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  cursor: pointer;
+  border-radius: 5px;
+}
+button2:hover {
+  background: #b71c1c;
+}
+
+.redes h3{
+  color: white;
+}
